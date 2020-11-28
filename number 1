@@ -1,0 +1,43 @@
+<html>
+  <head>
+      <title>Page title </title>
+      <script>
+      fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+var answer = floor(random(1, 5));
+
+
+if (answer === 1) {
+
+fill(114, 245, 8);
+text("reload",148, 244);
+ }
+else if (answer === 2) {
+
+fill(245, 245, 10);
+text("Please reload",156, 244);
+ }  
+
+else if (answer === 3) {
+
+fill(245, 10, 41);
+text("bad luck,come again next time",120, 221);
+ }  
+else if (answer === 4) {
+
+fill(245, 10, 245);
+text("Yes!",134, 219);
+ }  
+else if (answer ===5) {
+
+fill(171, 245, 12);
+text("No",112, 234);
+ }  
+      </script>
+      <body>
+      
+      
+      </body>
